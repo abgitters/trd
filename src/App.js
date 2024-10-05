@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PercentageT_SL from "./calculator/PercentageT_SL";
+import { Box } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box
+      sx={{
+        textAlign: "center",
+        background: "linear-gradient(#e0ffcd, #eb2632)",
+        height: "100vh",
+        pt: 6,
+      }}
+    >
+      <PercentageT_SL />
+    </Box>
   );
 }
 
