@@ -85,7 +85,7 @@ const PercentageT_SL = () => {
       <Paper elevation={3} sx={{ p: 1 }}>
         <Grid container spacing={2}>
           <Grid item md={12} xs={12}>
-            <h2> Percentage Calculator</h2>
+            <h2>Percentage Calculator</h2>
           </Grid>
         </Grid>
 
@@ -116,7 +116,6 @@ const PercentageT_SL = () => {
               </Grid>
               <Grid item md={3} xs={6}>
                 <FormControlLabel
-                  style={{ textWrap: "nowrap" }}
                   value="bb"
                   control={<Radio />}
                   label="Bollinger Bands"
